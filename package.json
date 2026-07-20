@@ -1,0 +1,13 @@
+{
+  "name": "cheat-free-quiz",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "server": "npm --prefix backend run server"
+  }
+}
