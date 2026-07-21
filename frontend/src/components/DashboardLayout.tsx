@@ -141,7 +141,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
               const Icon = item.icon;
               return (
                 <Link
-                  key={item.path}
+                 key={item.path}
                   to={item.path}
                   onClick={() => window.innerWidth < 1024 && setIsSidebarOpen(false)}
                   className={`
