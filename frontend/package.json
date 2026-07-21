@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && npm exec vite build",
+    "build": "npm install @rollup/rollup-linux-x64-gnu --no-save && tsc && npm exec vite build",
     "lint": "eslint . --max-warnings 0",
     "preview": "vite preview"
   },
@@ -21,6 +21,9 @@
     "recharts": "^3.8.0",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.8.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.60.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.1",
