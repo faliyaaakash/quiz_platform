@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Clock, ChevronLeft, ChevronRight, AlertTriangle, ShieldCheck, ShieldAlert, Loader2, Bookmark, Monitor, Info, CheckCircle2, X, BarChart2, ArrowLeft, Filter, Star } from 'lucide-react';
+import { Clock, AlertTriangle, ShieldAlert, Loader2, Bookmark, Monitor, CheckCircle2} from 'lucide-react';
 import { quizService } from '../services/quizService';
 import { authService } from '../services/authService';
 

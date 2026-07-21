@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { PlusCircle, BookOpen, LogOut, Bell, Menu, User as UserIcon } from 'lucide-react';
+import { BookOpen, LogOut, Bell, Menu, User as UserIcon } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { authService } from '../services/authService';
 import { User } from '../types';
