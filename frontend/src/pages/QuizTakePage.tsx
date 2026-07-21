@@ -38,7 +38,7 @@ const QuizTakePage: React.FC = () => {
     const [isPreviewMode, setIsPreviewMode] = useState(false);
     const [previewScore, setPreviewScore] = useState<any>(null);
     const [submittedAttemptId, setSubmittedAttemptId] = useState<string | null>(null);
-    const [userProfile, setUserProfile] = useState<any>(null);
+    // const [userProfile, setUserProfile] = useState<any>(null);
     const [isOfflineSubmitted, setIsOfflineSubmitted] = useState(false);
     
     // 🔒 Submission Guard Ref (Updates synchronously ⚡)
@@ -64,7 +64,7 @@ const QuizTakePage: React.FC = () => {
                 ]);
 
                 setQuizInfo(data as any);
-                setUserProfile(profile);
+                // setUserProfile(profile);
                 setTimeLeft(data.timeLimit * 60);
 
                 const isCreator = profile && data.creator === (profile as any)._id;
